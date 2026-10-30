@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1"/>
+        <attribute name="authors" value="wox20"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-30 08:29:33 "/>
+        <attribute name="created" value="d294MjA7VVNFUjsyMDI2LTEwLTMwOyIwODoxNjo0NCAiOzE5NTk="/>
+        <attribute name="edited" value="d294MjA7VVNFUjsyMDI2LTEwLTMwOyIwODoyOTozMyAiOzQ7MjA3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, k" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="k" expression="i*i"/>
+                <output expression="k" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
